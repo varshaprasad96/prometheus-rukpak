@@ -1,0 +1,15 @@
+apiVersion: core.rukpak.io/v1alpha1
+kind: BundleDeployment
+metadata:
+  name: bd-v1test
+spec:
+  provisionerClassName: core-rukpak-io-plain
+  template:
+    spec:
+      provisionerClassName: core-rukpak-io-registry
+      source:
+        type: git
+        git:
+          ref:
+            branch: main
+          repository: https://github.com/varshaprasad96/prometheus-rukpak
