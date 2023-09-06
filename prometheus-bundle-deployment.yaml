@@ -10,9 +10,4 @@ spec:
         ref:
           branch: main
         repository: https://github.com/varshaprasad96/prometheus-rukpak
-    - kind: git
-      git:
-        ref:
-          branch: main
-        repository: https://github.com/varshaprasad96/prometheus-rukpak-manifests
 
